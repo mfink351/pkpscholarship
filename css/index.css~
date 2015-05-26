@@ -1,0 +1,78 @@
+body{
+	margin: 0 0 0 0;
+}
+
+
+.header{
+	background-color: green;
+	
+	font-style: "Calibria";
+	text-align: center;
+	color: white;
+	vertical-align: center;
+
+
+	height: 10%;
+	width: 100%;
+
+	margin: 0;
+}
+
+.footer{
+	background-color: green;
+	
+	font-style: "Calibria";
+	text-align: center;
+	color: white;
+
+	height: 10%;
+	width: 100%;
+	margin: 0;
+}
+
+.loginContainer{
+
+	height: 75%;
+	width: 80%;
+	display: inline-block;
+	padding: 5px;
+
+	border: 1px solid black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	text-align: center;
+
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.loginForm{
+
+	width: 50%
+	height: 50%;
+	
+	font-size: 24px;
+	font-family: "Calibria";
+
+
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);    
+}
+
+.input{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}

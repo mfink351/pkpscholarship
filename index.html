@@ -1,0 +1,36 @@
+<html ng-app>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+		<script type="text/javascript" src="js/angular/angular.min.js"></script>
+		<script type="text/javascript" src="js/hourReporter.js"></script>
+	</head>
+
+	<body>
+		<div class="header">
+			<h1> PKP Scholarship Suite </h1>
+		</div>
+
+		<div id="login" class="loginContainer">
+			<div class ="loginForm">
+				<form>
+					Username:<br>
+					<input type="text" id="username" class="input">
+					<br>
+					Password:<br>
+					<input type="password" id="password" class="input" onkeypress="keyPress(event)">
+					<br>
+					<input type="button" value="Submit" onclick="submitLogin()">
+					<input type="reset" value="Reset">
+				</form>
+			</div>
+		</div>
+
+		<div class="footer">
+			<h1> Check-In/Check-Out </h1>
+		</div>
+
+	</body>
+
+</html>
